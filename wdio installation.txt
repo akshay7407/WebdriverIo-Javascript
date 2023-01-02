@@ -1,0 +1,39 @@
+wdio testing === npx wdio config
+
+1.Where is your automation backend located? (Use arrow keys)
+> On my local machine
+
+2.Which framework do you want to use? (Use arrow keys)
+> mocha
+
+3. Do you want to use a compiler? 
+>No
+
+4.Where are your test specs located?
+
+5.Do you want WebdriverIO to autogenerate some test files? (y/n) n
+
+6.? Which reporter do you want to use?
+>spec
+
+7. Do you want to add a plugin to your test setup? (Press <space> to select, <a> to toggle all, <i> to invert selection)
+
+8.Do you want to add a service to your test setup? (Press <space> to select, <a> to toggle all, <i> to invert selection)
+>(*) chromedriver
+
+9. What is the base url? 
+
+
+repo lilnk : https://github.com/byjus-orders/byjus-wdio-automation.git
+Package.json delete
+npm init -y
+npm install --save-dev @wdio/cli
+npx wdio config
+npm  install --save-dev @babel/core @babel/cli @babel/preset-env @babel/register
+npm i dotenv
+npm i @wdio/allure-reporter
+npm i mongodb
+npm i moment
+Chromedriver version check 
+Add .env
+npx wdio run ./wdio.conf.js --spec test\dev_pay\loan_payments\e2e\test.byjusnach.js

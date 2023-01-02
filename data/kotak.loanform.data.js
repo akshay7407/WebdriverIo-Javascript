@@ -1,0 +1,130 @@
+
+ const kotakData = {
+
+    kotakValidDetails :{
+        borrowerFirstName : 'dummy',
+        borrowerLastName : 'customer name',
+        panNumber :'BQJPG0712H',
+        dobDate :'11',
+        dobMonth:'June',
+        dobYear:'1990',
+        gender:["M",'a','Tab'],
+        phoneNumber:'8888031987',
+        alternatePhoneNumber:'7276697407',
+        email:'akshay.gaikwad@infobeans.com',
+        fathername:'Borrower Father Name',
+        mtherName:'Borrowers mother Name',
+        MaritalStatus:["S",'i','Tab'],
+        education :["P",'o','s','t','Tab'],
+        employementType:["S",'a','l','a','r','Tab'],
+        borrowerAddress:'shambhonagar ,katraj kondhwa road',
+        Pincode:"411046",
+        companyName:'Company name',
+        companyAddress:'Company address',
+        incomeSlab:['1','0','0','Tab'],
+        propertyType:["O",'w','n','Tab'],
+        state:['G','o','a','Tab'],
+        City:['B','A','S','Tab'],
+        payableAmount:'30000',
+        loanTenure:['9','Tab'],
+        productName:'product name'
+        
+    },
+    kotakInvalidAgeLessThan21:{
+        borrowerFirstName : 'dummy',
+        borrowerLastName : 'customer name',
+        panNumber :'BQJPG0712H',
+        dobDate :'11',
+        dobMonth:'June',
+        dobYear:'2018',
+        gender:["M",'a','Tab'],
+        phoneNumber:'8888031987',
+        alternatePhoneNumber:'7276697407',
+        email:'akshay.gaikwad@infobeans.com',
+        fathername:'Borrower Father Name',
+        mtherName:'Borrowers mother Name',
+        MaritalStatus:["S",'i','Tab'],
+        education :["P",'o','s','t','Tab'],
+        employementType:["S",'a','l','a','r','Tab'],
+        borrowerAddress:'shambhonagar ,katraj kondhwa road',
+        Pincode:"411046",
+        companyName:'Company name',
+        companyAddress:'Company address',
+        incomeSlab:['1','0','0','Tab'],
+        propertyType:["O",'w','n','Tab'],
+        state:['G','o','a','Tab'],
+        City:['B','A','S','Tab'],
+        payableAmount:'30000',
+        loanTenure:['9','Tab'],
+        productName:'product name'
+        
+    },
+    kotakInvalidAgeMoreThan65:{
+
+        borrowerFirstName : 'dummy',
+        borrowerLastName : 'customer name',
+        panNumber :'BQJPG0712H',
+        dobDate :'11',
+        dobMonth:'June',
+        dobYear:'1950',
+        gender:["M",'a','Tab'],
+        phoneNumber:'8888031987',
+        alternatePhoneNumber:'7276697407',
+        email:'akshay.gaikwad@infobeans.com',
+        fathername:'Borrower Father Name',
+        mtherName:'Borrowers mother Name',
+        MaritalStatus:["S",'i','Tab'],
+        education :["P",'o','s','t','Tab'],
+        employementType:["S",'a','l','a','r','Tab'],
+        borrowerAddress:'shambhonagar ,katraj kondhwa road',
+        Pincode:"411046",
+        companyName:'Company name',
+        companyAddress:'Company address',
+        incomeSlab:['1','0','0','Tab'],
+        propertyType:["O",'w','n','Tab'],
+        state:['G','o','a','Tab'],
+        City:['B','A','S','Tab'],
+        payableAmount:'30000',
+        loanTenure:['9','Tab'],
+        productName:'product name'
+        
+
+    },
+
+    kotakInvalidemail:{
+
+        borrowerFirstName : 'dummy',
+        borrowerLastName : 'customer name',
+        panNumber :'BQJPG0712H',
+        dobDate :'11',
+        dobMonth:'June',
+        dobYear:'1990',
+        gender:["M",'a','Tab'],
+        phoneNumber:'8888031987',
+        alternatePhoneNumber:'7276697407',
+        email:'akshay.gaikwadinfobeans',
+        fathername:'Borrower Father Name',
+        mtherName:'Borrowers mother Name',
+        MaritalStatus:["S",'i','Tab'],
+        education :["P",'o','s','t','Tab'],
+        employementType:["S",'a','l','a','r','Tab'],
+        borrowerAddress:'shambhonagar ,katraj kondhwa road',
+        Pincode:"411046",
+        companyName:'Company name',
+        companyAddress:'Company address',
+        incomeSlab:['1','0','0','Tab'],
+        propertyType:["O",'w','n','Tab'],
+        state:['G','o','a','Tab'],
+        City:['B','A','S','Tab'],
+        payableAmount:'30000',
+        loanTenure:['9','Tab'],
+        productName:'product name'
+        
+
+    },
+
+
+    },
+
+export{kotakData};
+
